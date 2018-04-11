@@ -1,0 +1,324 @@
+html,body,br,hr,div,span,a,object,iframe,ul,ol,dl,li,dt,dd,h1,h2,h3,h4,h5,h6,p,blockquote,q,address,small,big,cite,dfn,ins,del,i,em,b,strong,sup,sub,strike,pre,code,samp,kbd,var,tt,form,fieldset,legend,label,input,textarea,option,.nobox {
+    background: transparent;
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline
+}
+
+div,section,article,main,aside,header,footer,dialog,figure,figcaption,hgroup {
+    display: block
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*,*:before,*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit
+}
+
+blockquote,q {
+    quotes: none
+}
+
+br {
+    height: 0
+}
+
+ul,ol,dl {
+    list-style: none
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse
+}
+
+td {
+    text-align: left;
+    font-weight: normal
+}
+
+img {
+    border: 0;
+    border-style: none
+}
+
+fieldset {
+    border: 1px solid transparent
+}
+
+input[type=submit] {
+    cursor: pointer;
+    -webkit-appearance: none
+}
+
+input {
+    font-family: 'Montserrat', sans-serif
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #2b325f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700
+}
+
+p {
+    color: #2b325f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px
+}
+
+a {
+    color: #32a287;
+    text-decoration: none;
+    cursor: pointer
+}
+
+a:hover {
+    color: #6c464e;
+    text-decoration: none
+}
+
+a:active {
+    outline: none
+}
+
+a:focus {
+    outline: none
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 4.625rem;
+    letter-spacing: .02em
+}
+
+h2,h1.title-sm {
+    font-size: 2.25rem;
+    line-height: 3.125rem
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 2rem
+}
+
+h3.large,.body h3 {
+    font-size: 1.9rem;
+    line-height: 2.75rem
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 24px
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 18px
+}
+
+h6 {
+    font-size: 14px;
+    letter-spacing: .2em;
+    text-transform: uppercase
+}
+
+strong {
+    font-weight: bold
+}
+
+hr {
+    border: 0 #000 solid;
+    border-top-width: 1px;
+    clear: both;
+    height: 0
+}
+
+ol {
+    list-style: decimal
+}
+
+ul {
+    list-style: disc
+}
+
+blockquote {
+    position: relative;
+    display: block;
+    font-size: 20px;
+    line-height: 32px;
+    font-style: italic;
+    padding: 15px 80px 15px 80px
+}
+
+blockquote:before {
+    display: block;
+    content: '';
+    width: 3px;
+    background: #da1333;
+    height: calc(100% - 40px);
+    position: absolute;
+    top: 20px;
+    left: 40px
+}
+
+html,body,p,a,h1,h2,h3,h4,h5,h6 {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+/*===============End Of Baisc Presets====================*/
+/*===============Code from screen.css====================*/
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.no-top-banner #wrapper:before {
+    display: none
+}
+
+#wrapper.is-darkened:after {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease
+}
+
+#wrapper:after {
+    content: '';
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(24,24,24,0.99);
+    z-index: 99998;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease
+}
+
+.full-height #wrapper {
+     margin: 0 auto
+}
+   
+/*========== Container comes directly after this==== */
+/*========== Container comes directly after this==== */
+/*========== Container comes directly after this==== */
+/*========== code from css core-89ce772293 =======*/
+#wrapper,.ohidden{
+    position:relative
+}
+
+#wrapper{
+    float:none;
+    width:1220px;
+    margin:0 auto;
+    background-color:#FFF;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+    -moz-box-shadow:0 0 10px rgba(0,0,0,.1);
+    -webkit-box-shadow:0 0 10px rgba(0,0,0,.1)
+}
+
+    .side-header:not(.open-header) #wrapper{
+        margin:0 0 0 260px!important;
+        width:auto!important
+    }
+    .side-header:not(.open-header) #wrapper .container{
+        width:auto;
+        margin:0 40px
+    }
+    .side-header.open-header.push-wrapper{
+        overflow-x:hidden
+    }
+    .side-header.open-header #header{
+        left:-260px
+    }
+    .side-header.open-header #wrapper,.side-header.open-header.side-header-open #header{
+        left:0
+    }
+    .side-header.open-header.push-wrapper.side-header-open #wrapper{
+        left:260px
+    }
+.side-header.side-header-right.open-header.push-wrapper.side-header-open #wrapper{
+        left:-260px
+    }
+body.side-push-panel #header.sticky-header .container,body.side-push-panel #wrapper,body.side-push-panel.side-panel-open #side-panel{
+    right:0
+}
+
+body.side-push-panel.side-panel-open #header.sticky-header .container,body.side-push-panel.side-panel-open #wrapper{
+    right:300px
+}
+body.side-push-panel #side-panel,body.side-push-panel #wrapper,body.side-push-panel.side-panel-open #header.sticky-header .container{
+    -webkit-transition:right .4s ease;
+    -o-transition:right .4s ease;
+    transition:right .4s ease
+}
+.stretched #wrapper{
+    width:100%;
+    margin:0;
+    box-shadow:none
+}
+.animsition-overlay,body:not(.no-transition) #wrapper{
+    position:relative;
+    opacity:0;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both
+}
+.dark #content,.dark #wrapper,.dark .css3-spinner,.dark .modal-content,.dark .portfolio-ajax-modal,.dark .shop-quick-view-ajax,body.dark,body.side-push-panel #side-panel.dark,body.side-push-panel.dark #side-panel{
+    background-color:#383838
+}
+ #wrapper{
+        width:1000px
+    }
+  #wrapper{
+        width:100%;
+        margin:0;
+        box-shadow:none
+    }
+ #wrapper{
+        width:100%!important
+    }
+s
+
+
+
+

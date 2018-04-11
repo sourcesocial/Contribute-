@@ -1,0 +1,38 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Sign Up</title>
+    <link rel="stylesheet" href="css/live/app-d159020cbe.min.css">
+    <link rel="stylesheet" href="css/live/core-89ce772293.min.css">
+</head>
+<body>
+  <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST"  accept-charset="UTF-8" role="form" id="loginForm">
+                                            <div class="form-group">
+                                                <label for="login_email" class="sr-only">Username</label>
+                                                <input class="form-control input-lg" id="username" placeholder="Username" required="required" name="username" type="text">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="login_password" class="sr-only">Password</label>
+                                                <input class="form-control input-lg" id="codelangs" placeholder="Code Language's you like most?" required="required" name="codelangs" type="password">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="login_email" class="sr-only">Full Name</label>
+                                                <input class="form-control input-lg" id="full_name" placeholder="Full Name" required="required" name="email" type="text">
+                                            </div><div class="form-group">
+                                                <label for="login_email" class="sr-only">Email</label>
+                                                <input class="form-control input-lg" id="login_email" placeholder="Email" required="required" name="email" type="text">
+                                            </div>
+                                            <div class="row bottommargin-xs">
+                                                <div class="col-sm-12">
+                                                    <div id="g-recaptcha-FdwpZG" class="recaptcha" data-sitekey="6Ld06AcTAAAAAASfSRekSr5A1HZJuIdrfeQZJP62"></div>
+                                                </div>
+                                            </div>
+                                            <div class="g-recaptcha" data-sitekey="6LcdezsUAAAAACn2IalN0bYAwv98VPJTFi8eEQEM"></div>
+
+                                            <button method="POST" type="submit" class="btn btn-lg btn-primary btn-block ladda-button" data-style="zoom-in" type="submit" name="insert">
+                                                <span class="ladda-label">Get Hacking</span>
+                                            </button>
+                                        </form>
+
+</body>
+</html>

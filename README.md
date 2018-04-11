@@ -1,2 +1,2 @@
-# Contribute-
-This is the Main Source Social Contribution Repo, your edits here will be updated to the main Site. 
+# SourceSocial
+This is the current source code for source social the hack-able social media. 
